@@ -1,0 +1,25 @@
+{
+  "id": "sms",
+  "name": "SMS",
+  "description": "Verimor Telekomunikasyon A.Ş. SMS plugin for OpenClaw",
+  "version": "1.0.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false
+  },
+  "config": {
+    "username": {
+      "type": "string",
+      "description": "Verimor kullanıcı adı (908xxxxxxxxx)"
+    },
+    "password": {
+      "type": "string",
+      "secret": true,
+      "description": "Verimor API şifresi"
+    },
+    "source_addr": {
+      "type": "string",
+      "description": "Varsayılan gönderici başlığı (örn: FIRMAM)"
+    }
+  }
+}
