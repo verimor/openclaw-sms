@@ -1,6 +1,6 @@
 {
-  "id": "sms",
-  "name": "SMS",
+  "id": "verimor-sms",
+  "name": "Verimor SMS",
   "description": "Verimor Telekomunikasyon A.Ş. SMS plugin for OpenClaw",
   "version": "1.0.0",
   "configSchema": {

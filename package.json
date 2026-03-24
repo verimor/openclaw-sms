@@ -5,7 +5,13 @@
   "openclaw": {
     "extensions": ["./index.ts"]
   },
+   "peerDependencies": {
+    "openclaw": "*"
+  },
   "dependencies": {
     "@sinclair/typebox": "^0.32.0"
+  },
+  "devDependencies": {
+    "openclaw": "*"
   }
 }
